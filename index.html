@@ -3,54 +3,35 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>Mulled beverages</title>
+		<title>Mulled beverages</title>
     <link href="assets/base.css" rel="stylesheet" type="text/css" media="all">
     <link href="assets/font.css" rel="stylesheet" type="text/css" media="all">
     <link href="assets/custom.css" rel="stylesheet" type="text/css" media="all">
-	<script src="animation.js"></script>
-  </head>
+    <link href="assets/style.css" rel="stylesheet" type="text/css" media="all">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.js"></script>
+		</head>
   <body class="gradient">
+	  <a class="skip-to-content-link button visually-hidden" href="#MainContent"> Skip to content </a>
     <!-- BEGIN sections: header-group -->
     <!-- END sections: header-group -->
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       <div class="shopify-section">
-        <div class="well hero-mulled">
-          <div class="panel">
-            <div class="page-width container-mulled">
-              <h2> Treat your senses to the sweet aroma, the spiced flavour and the warm textures of a Mulled Beverage. Experience this delicious drink with friends or family today. </h2>
-              <div class="product-hero">
-                <img src="assets/images/Simple_Doypack_Mockup_1.png" width="auto" height="auto">
-                <img src="assets/images/Simple_Doypack_Mockup_2.png" width="auto" height="auto">
-              </div>
-              <button class="btn-mulled">Shop</button>
-            </div>
-            <div class="animate-img">
-              <img src="assets/images/Layer_13.png" width="auto" height="auto" class="bg-top-left">
-              <img src="assets/images/Group_18_1.png" width="auto" height="auto" class="bg-product">
-              <a href="#bg-animate">
-                <img src="assets/images/Arrow.svg" width="auto" height="auto" class="arrow">
-              </a>
-            </div>
-          </div>
-          <div class="panel">
-            <div class="bg-animate" id="bg-animate">
-              <img src="assets/images/pouder1_4x_1.png" width="auto" height="auto" class="bg-animate-1" style="">
-              <img src="assets/images/Layer_6.png" width="auto" height="auto" class="bg-animate-2" style="">
-              <img src="assets/images/Layer_4.png" width="auto" height="auto" class="bg-animate-3" style="">
-              <img src="assets/images/Layer_5.png" width="auto" height="auto" class="bg-animate-4" style="">
-              <img src="assets/images/Layer_7.png" width="auto" height="auto" class="bg-animate-5" style="">
-              <!-- <img src="assets/images/Spiced_Bag_Open_v2_PNG_1.png" width="auto" height="auto" class="bag-open"> -->
-              <img src="assets/images/Layer_3.png" width="auto" height="auto" class="bg-animate-6" style="">
-              <img src="assets/images/Layer_1.png" width="auto" height="auto" class="bg-animate-7" style="">
-              <img src="assets/images/Layer_8.png" width="auto" height="auto" class="bg-animate-9" style="">
-              <img src="assets/images/Layer_2.png" width="auto" height="auto" class="bg-animate-8" style="">
-            </div>
-          </div>
-          <img src="assets/images/Simple_Doypack_Mockup_1_1.png" width="auto" height="auto" class="img-product-1" style="transform: translateY(0px) rotate(0deg) translateX(0px);">
-        </div>
+        <div class="canvas-container">
+					<canvas id="hero-lightpass" width="1778" height="1080"></canvas>
+					<div class="title">
+						<h2>Treat your senses to the sweet aroma, the spiced flavour and the warm textures of a Mulled Beverage. Experience this delicious drink with friends or family today.</h2>
+						<div class="product-option">
+						<img src="https://cdn.shopify.com/s/files/1/0659/6080/4509/files/Simple_Doypack_Mockup_1.png" width="auto" height="auto">
+						<img src="https://cdn.shopify.com/s/files/1/0659/6080/4509/files/Simple_Doypack_Mockup_2.png" width="auto" height="auto">
+						</div>
+						<button class="btn-mulled">Shop</button>
+					</div>
+				</div>
       </div>
     </main>
     <!-- BEGIN sections: footer-group -->
     <!-- END sections: footer-group -->
+		<script src="animation.js"></script>
   </body>
 </html>

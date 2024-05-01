@@ -4,7 +4,7 @@ nav.header__inline-menu ul li:nth-last-child(1) {
 }
 
 button {
-    font-family: "Onest", "Lato", sans-serif;
+    font-family: "Onest", sans-serif;
     font-size: 20px;
     color: #530C29;
     border-radius: 5px;
@@ -36,7 +36,7 @@ button:hover {
 .hero-mulled h2 {
     color: #fff;
     margin: 0;
-    font-family: "Lancelot", "Lato", sans-serif;
+    font-family: "Lancelot", sans-serif;
     font-size: 35px;
     max-width: 614px;
 }
@@ -86,8 +86,6 @@ img.arrow {
 .animate-img {
     overflow: hidden;
 }
-
-
 
 /* Define a keyframes animation called fadeInRight */
 @keyframes fadeInRight {
@@ -141,8 +139,6 @@ img.arrow {
 img.arrow {
     animation: moveUpDown 1.8s linear infinite;
 }
-
-
 
 @media screen and (max-width: 749px){
   .hero-mulled h2 {
